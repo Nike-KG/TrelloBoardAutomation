@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <!-- Path to save the test result file (output directory) -->
+    <ResultsDirectory>TestResults</ResultsDirectory>
+  </RunConfiguration>
+
+  <NUnit>
+    <!-- Format of the NUnit output report (e.g., nunit3, nunit2) -->
+    <WorkDirectory>../../../TestResults</WorkDirectory>
+    <OutputXmlFile>TestResults/NUnitTestResult.xml</OutputXmlFile>
+    <TestOutputXml>TestResults/NUnitTestOutput.xml</TestOutputXml>
+    <ResultFormat>nunit3</ResultFormat>
+  </NUnit>
+</RunSettings>
